@@ -1,3 +1,4 @@
+
 const get = async (req, res) => {
   const data = {};
 
@@ -9,6 +10,7 @@ const post = async (req, res) => {
   console.log("hello");
   res.render("index", { message: "hello" });
 };
+
 
 const createForm = async (req, res) => {};
 export default { get, post, createForm };
