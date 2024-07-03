@@ -1,17 +1,16 @@
-async function get(req, res) {
-	const data = {
-		formfields: {
-			name: "text",
-			age: "number",
-		},
-	};
 
-	res.render("index", { data });
-}
+const get = async (req, res) => {
+  const data = {};
 
-async function post(req, res) {
-	const data = {};
-	res.render("index", { message: "hello" });
-}
+  res.render("index", { data });
+};
 
-export default { get, post };
+const post = async (req, res) => {
+  console.log(req.body);
+  console.log("hello");
+  res.render("index", { message: "hello" });
+};
+
+
+const createForm = async (req, res) => {};
+export default { get, post, createForm };
