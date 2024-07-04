@@ -1,24 +1,25 @@
-<div class="self-stretch h-12 px-5 border border-stone-300 justify-between items-center inline-flex">
-    <div class="w-56 h-10 py-2.5 justify-start items-center gap-4 flex">
-        <div class="text-zinc-600 text-xl font-bold font-['Inter']">Text</div>
-        <div class="text-zinc-600 text-xl font-light font-['Inter']">Input</div>
-        <div class="text-zinc-600 text-xl font-light font-['Inter']">Layout</div>
-        <div class="w-24 h-24 relative"></div>
-    </div>
-</div>
-<div class="self-stretch h-px border-2 border-neutral-400"></div>
-<div class="self-stretch h-16 border border-stone-300 justify-center items-center gap-2.5 inline-flex">
-    <div class="text-neutral-600 text-xl font-bold font-['Inter']">Add a heading H1</div>
-</div>
-<div class="self-stretch h-16 border border-stone-300 justify-center items-center gap-2.5 inline-flex">
-    <div class="text-neutral-600 text-lg font-bold font-['Inter']">Add a heading H2</div>
-</div>
-<div class="self-stretch h-16 border border-stone-300 justify-center items-center gap-2.5 inline-flex">
-    <div class="text-neutral-600 text-base font-bold font-['Inter']">Add a heading H3</div>
-</div>
-<div class="self-stretch h-16 border border-stone-300 justify-center items-center gap-2.5 inline-flex">
-    <div class="text-neutral-600 text-base font-bold font-['Inter']">Add a heading H3</div>
-</div>
-<div class="self-stretch h-16 border border-stone-300 justify-center items-center gap-2.5 inline-flex">
-    <div class="text-neutral-600 text-base font-bold font-['Inter']">Add a heading H3</div>
-</div>
+<% const selections={ "text" : [ "H1" ,"H2","H3","Label" ], "Inputs" : [ "H1" ,"H2","H3","Label" ], } foreach set of
+    selections.text { %>
+
+    <% }%>
+
+        <div class="self-stretch h-12 px-5 border border-stone-300 justify-between items-center inline-flex">
+            <div class="w-56 h-10 py-2.5 justify-start items-center gap-4 flex">
+                <div class="text-zinc-600 text-xl font-bold font-['Inter']">Text</div>
+                <div class="text-zinc-600 text-xl font-light font-['Inter']">Input</div>
+                <div class="text-zinc-600 text-xl font-light font-['Inter']">Layout</div>
+                <div class="w-24 h-24 relative"></div>
+            </div>
+        </div>
+        <div class="self-stretch h-px border-2 border-neutral-400"></div>
+        <div class="self-stretch h-16 border border-stone-300 justify-center items-center gap-2.5 inline-flex">
+            <div class="text-neutral-600 text-xl font-bold font-['Inter']">Add a heading H1</div>
+        </div>
+        <li>
+            <a href="#"
+                class="flex flex-row items-center h-12 transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-500 hover:text-gray-800">
+                <span class="inline-flex items-center justify-center h-12 w-12 text-lg text-gray-400"><i
+                        class="bx bx-home"></i></span>
+                <span class="text-sm font-medium">Dashboard</span>
+            </a>
+        </li>

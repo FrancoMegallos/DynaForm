@@ -1,11 +1,16 @@
+import Component from "../objects/Component.js";
 const get = async (req, res) => {
   const componentName = req.params.name;
-  console.log("componeneteName");
-  const type = {
-    type: ""
-  }
 
-  res.render(`components/${componentName}`, { type });
+  const component = new Component({
+    id: req.query.id,
+    name: req.query.name,
+    value: req.query.value,
+    type: req.query.type,
+    className: req.query.className,
+  });
+  console.log("componentName");
+  res.render(`components/${componentName}`, { component });
 };
 
 export default {
