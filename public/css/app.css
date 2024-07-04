@@ -554,8 +554,244 @@ video {
   --tw-contain-style:  ;
 }
 
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.left-\[8\.92px\] {
+  left: 8.92px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.top-\[7\.44px\] {
+  top: 7.44px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.flex {
+  display: flex;
+}
+
+.inline-flex {
+  display: inline-flex;
+}
+
+.h-\[10\.42px\] {
+  height: 10.42px;
+}
+
+.h-\[11\.62px\] {
+  height: 11.62px;
+}
+
+.h-\[12\.16px\] {
+  height: 12.16px;
+}
+
+.h-\[12\.69px\] {
+  height: 12.69px;
+}
+
+.h-\[20\.57px\] {
+  height: 20.57px;
+}
+
+.h-\[20\.84px\] {
+  height: 20.84px;
+}
+
+.h-\[23px\] {
+  height: 23px;
+}
+
+.h-\[27px\] {
+  height: 27px;
+}
+
+.h-\[29px\] {
+  height: 29px;
+}
+
+.h-\[39px\] {
+  height: 39px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-fit {
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.w-\[10\.42px\] {
+  width: 10.42px;
+}
+
+.w-\[102px\] {
+  width: 102px;
+}
+
+.w-\[108px\] {
+  width: 108px;
+}
+
+.w-\[11\.62px\] {
+  width: 11.62px;
+}
+
+.w-\[12\.16px\] {
+  width: 12.16px;
+}
+
+.w-\[155px\] {
+  width: 155px;
+}
+
+.w-\[170\.41px\] {
+  width: 170.41px;
+}
+
+.w-\[20\.57px\] {
+  width: 20.57px;
+}
+
+.w-\[57\.54px\] {
+  width: 57.54px;
+}
+
+.w-\[75\.85px\] {
+  width: 75.85px;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.max-w-screen-xl {
+  max-width: 1280px;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-2\.5 {
+  gap: 0.625rem;
+}
+
+.gap-\[16\.73px\] {
+  gap: 16.73px;
+}
+
+.self-stretch {
+  align-self: stretch;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-\[14\.87px\] {
+  border-radius: 14.87px;
+}
+
+.rounded-\[20px\] {
+  border-radius: 20px;
+}
+
+.border-b {
+  border-bottom-width: 1px;
+}
+
+.bg-neutral-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-slate-900 {
@@ -563,11 +799,76 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
+.bg-zinc-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
+}
+
+.px-\[21px\] {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-\[\'Inter\'\] {
+  font-family: 'Inter';
+}
+
+.text-\[10\.83px\] {
+  font-size: 10.83px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.font-black {
+  font-weight: 900;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
